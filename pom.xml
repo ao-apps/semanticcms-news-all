@@ -27,7 +27,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 	<parent>
 		<groupId>com.semanticcms</groupId>
 		<artifactId>semanticcms-news</artifactId>
-		<version>1.0</version>
+		<version>1.1-SNAPSHOT</version>
 	</parent>
 
 	<groupId>com.semanticcms</groupId>
@@ -36,7 +36,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS News All</name>
-	<url>https://semanticcms.com/docs/semanticcms-news-all/</url>
+	<url>https://semanticcms.com/news/all/</url>
 	<description>Convenience POM to include most SemanticCMS newsfeed features, not including documentation or examples.</description>
 
 	<scm>
@@ -50,32 +50,32 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-news-model</artifactId>
-			<version>1.0</version>
+			<version>1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-news-rss</artifactId>
-			<version>1.0</version>
+			<version>1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-news-servlet</artifactId>
-			<version>1.0</version>
+			<version>1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-news-style</artifactId>
-			<version>1.0</version>
+			<version>1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-news-taglib</artifactId>
-			<version>1.0</version>
+			<version>1.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-news-view</artifactId>
-			<version>1.0</version>
+			<version>1.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
