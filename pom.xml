@@ -35,15 +35,21 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 	<version>1.1.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
+	<properties>
+		<bookPath>/news/all</bookPath>
+		<shortTitle>All</shortTitle>
+	</properties>
+
 	<name>SemanticCMS News All</name>
-	<url>https://semanticcms.com/news/all/</url>
+	<url>https://semanticcms.com${bookPath}/</url><!-- Can't inherit due to multi-module -->
 	<description>Convenience POM to include most SemanticCMS News features, not including documentation or examples.</description>
 	<inceptionYear>2016</inceptionYear>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/semanticcms-news-all.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-news-all.git</developerConnection>
-		<url>https://github.com/aoindustries/semanticcms-news-all</url>
+		<!-- Can't inherit due to multi-module -->
+		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
+		<url>https://github.com/aoindustries/${project.artifactId}</url>
 		<tag>HEAD</tag>
 	</scm>
 
