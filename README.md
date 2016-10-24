@@ -3,7 +3,7 @@ Convenience POM to include most [SemanticCMS News](https://semanticcms.com/news/
 
 ## Project Links
 * [Project Home](https://semanticcms.com/news/all/)
-* [Maven Central Repository](https://search.maven.org/#search|gav|1|g:%22com.semanticcms%22%20AND%20a:%22semanticcms-news-all%22)
+* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-news-all%22)
 * [GitHub](https://github.com/aoindustries/semanticcms-news-all)
 
 ## Modules Included
