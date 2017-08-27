@@ -34,6 +34,7 @@ Convenience POM to include most [SemanticCMS News](https://semanticcms.com/news/
 
 ## Modules Included
 * [SemanticCMS News Model](https://semanticcms.com/news/model/)
+* [SemanticCMS News Renderer HTML](https://semanticcms.com/news/renderer/html/)
 * [SemanticCMS News RSS](https://semanticcms.com/news/rss/)
 * [SemanticCMS News Servlet](https://semanticcms.com/news/servlet/)
 * [SemanticCMS News Style](https://semanticcms.com/news/style/)

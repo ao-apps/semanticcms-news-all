@@ -34,7 +34,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
 		datePublished="2016-10-19T14:01:00-0500"
-		dateModified="2017-07-18T20:35:30-0500"
+		dateModified="2017-08-26T17:35:19-0500"
 	>
 		<core:child page="changelog" />
 		<ao:include
@@ -61,6 +61,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		<section:section label="Modules Included">
 			<ul>
 				<li><core:link book="/news/model" page="/" /></li>
+				<li><core:link book="/news/renderer/html" page="/" /></li>
 				<li><core:link book="/news/rss" page="/" /></li>
 				<li><core:link book="/news/servlet" page="/" /></li>
 				<li><core:link book="/news/style" page="/" /></li>

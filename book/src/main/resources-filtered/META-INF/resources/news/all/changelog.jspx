@@ -37,7 +37,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T00:20:12-0500"
-		dateModified="2017-08-02T12:55:23-0500"
+		dateModified="2017-08-27T13:11:05-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-news-all:pom.version}" />
@@ -57,8 +57,10 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 					<li>Updated version of <core:link book="/news/model" page="/" />.</li>
 					<li>Updated version of <core:link book="/news/rss" page="/" />.</li>
 					<li>Updated version of <core:link book="/news/servlet" page="/" />.</li>
+					<li>Updated version of <core:link book="/news/style" page="/" />.</li>
 					<li>Updated version of <core:link book="/news/taglib" page="/" />.</li>
 					<li>Updated version of <core:link book="/news/view" page="/" />.</li>
+					<li>New module <core:link book="/news/renderer/html" page="/" />.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
