@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [News](https://semanticcms.com/news/) / [All](https://semanticcms.com/news/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [News](https://github.com/aoindustries/semanticcms-news) / [All](https://github.com/aoindustries/semanticcms-news-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -24,7 +24,7 @@
 	</a>
 </p>
 
-Convenience POM to include most [SemanticCMS News](https://semanticcms.com/news/) features, not including documentation or examples.
+Convenience POM to include most [SemanticCMS News](https://github.com/aoindustries/semanticcms-news) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/news/all/)
@@ -33,12 +33,12 @@ Convenience POM to include most [SemanticCMS News](https://semanticcms.com/news/
 * [GitHub](https://github.com/aoindustries/semanticcms-news-all)
 
 ## Modules Included
-* [SemanticCMS News Model](https://semanticcms.com/news/model/)
-* [SemanticCMS News RSS](https://semanticcms.com/news/rss/)
-* [SemanticCMS News Servlet](https://semanticcms.com/news/servlet/)
-* [SemanticCMS News Style](https://semanticcms.com/news/style/)
-* [SemanticCMS News Taglib](https://semanticcms.com/news/taglib/)
-* [SemanticCMS News View](https://semanticcms.com/news/view/)
+* [SemanticCMS News Model](https://github.com/aoindustries/semanticcms-news-model)
+* [SemanticCMS News RSS](https://github.com/aoindustries/semanticcms-news-rss)
+* [SemanticCMS News Servlet](https://github.com/aoindustries/semanticcms-news-servlet)
+* [SemanticCMS News Style](https://github.com/aoindustries/semanticcms-news-style)
+* [SemanticCMS News Taglib](https://github.com/aoindustries/semanticcms-news-taglib)
+* [SemanticCMS News View](https://github.com/aoindustries/semanticcms-news-view)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
