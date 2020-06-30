@@ -29,7 +29,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId><version>1.5.0</version>
+	<groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId><version>1.5.0-POST-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>SemanticCMS News All</name>
@@ -41,7 +41,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-news-all.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-news-all.git</developerConnection>
 		<url>https://github.com/aoindustries/semanticcms-news-all</url>
-		<tag>semanticcms-news-all-1.5.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
