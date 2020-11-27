@@ -37,7 +37,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T00:20:12-0500"
-		dateModified="2020-11-19T00:22:01-06:00"
+		dateModified="2020-11-26T03:21:48-06:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-news-all:pom.version}" />
@@ -56,6 +56,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 				<ul>
 					<li>New module <core:link book="/news/renderer/html" page="/" />.</li>
 					<li>Updated version of <core:link book="/news/servlet" page="/" />.</li>
+					<li>Updated version of <core:link book="/news/style" page="/" />.</li>
 					<li>Updated version of <core:link book="/news/taglib" page="/" />.</li>
 				</ul>
 			</changelog:release>
