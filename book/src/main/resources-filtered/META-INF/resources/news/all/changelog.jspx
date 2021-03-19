@@ -37,7 +37,7 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-31T00:20:12-0500"
-		dateModified="2021-02-19T05:52:12-06:00"
+		dateModified="2021-03-19T03:42:29-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -49,10 +49,22 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>New module <core:link book="/news/renderer/html" page="/" />.</li>
-					<li>Updated dependencies.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.6.1"
+			datePublished="2021-03-19T03:42:29-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Updated dependencies.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
