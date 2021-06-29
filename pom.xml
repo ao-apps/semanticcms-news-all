@@ -30,7 +30,11 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 	</parent>
 
 	<groupId>com.semanticcms</groupId><artifactId>semanticcms-news-all</artifactId><version>2.0.0-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<packaging>bundle</packaging>
+
+	<properties>
+		<module.name>com.semanticcms.news.all</module.name>
+	</properties>
 
 	<name>SemanticCMS News All²</name>
 	<url>https://semanticcms.com/news/all/</url>
@@ -71,6 +75,26 @@ along with semanticcms-news-all.  If not, see <http://www.gnu.org/licenses />.
 		<system>GitHub Issues</system>
 		<url>https://github.com/aoindustries/semanticcms-news-all/issues</url>
 	</issueManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
+				<configuration>
+					<usedDependencies>
+						<!-- Direct -->
+						<dependency>com.semanticcms:semanticcms-news-servlet</dependency><!-- Required for module-info.java -->
+						<dependency>com.semanticcms:semanticcms-news-taglib</dependency><!-- Required for module-info.java -->
+						<!-- Runtime Direct -->
+						<dependency>com.semanticcms:semanticcms-news-renderer-html</dependency>
+						<dependency>com.semanticcms:semanticcms-news-rss</dependency>
+						<dependency>com.semanticcms:semanticcms-news-style</dependency>
+						<dependency>com.semanticcms:semanticcms-news-view</dependency>
+					</usedDependencies>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 
 	<dependencyManagement>
 		<dependencies>
