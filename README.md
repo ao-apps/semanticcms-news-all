@@ -8,6 +8,8 @@
 [![semantic versioning: 2.0.0](https://semanticcms.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://semanticcms.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
+[![Build](https://github.com/aoindustries/semanticcms-news-all/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/semanticcms-news-all/actions?query=workflow%3ABuild)
+
 Convenience POM to include most [SemanticCMS News](https://github.com/aoindustries/semanticcms-news) features, not including documentation or examples.
 
 ## Project Links
