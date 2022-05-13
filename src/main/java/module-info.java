@@ -25,4 +25,4 @@ module com.semanticcms.news.all {
   requires transitive com.semanticcms.news.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-model</artifactId>
   requires transitive com.semanticcms.news.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-servlet</artifactId>
   requires transitive com.semanticcms.news.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-news-taglib</artifactId>
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
