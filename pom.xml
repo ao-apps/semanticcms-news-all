@@ -126,9 +126,10 @@ along with semanticcms-news-all.  If not, see <https://www.gnu.org/licenses/>.
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.semanticcms:semanticcms-news-servlet</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-news-taglib</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.semanticcms:semanticcms-news-model</dependency>
+            <dependency>com.semanticcms:semanticcms-news-servlet</dependency>
+            <dependency>com.semanticcms:semanticcms-news-taglib</dependency>
             <!-- Runtime Direct -->
             <dependency>com.semanticcms:semanticcms-news-rss</dependency>
             <dependency>com.semanticcms:semanticcms-news-style</dependency>
