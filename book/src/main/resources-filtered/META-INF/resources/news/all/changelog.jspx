@@ -37,7 +37,7 @@ along with semanticcms-news-all.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2016-10-31T00:20:12-05:00"
-    dateModified="2022-05-15T02:04:25-05:00"
+    dateModified="2023-09-18T03:16:04Z"
   >
     <c:set var="latestRelease" value="1.7.2" />
     <c:if test="${
@@ -55,6 +55,10 @@ along with semanticcms-news-all.  If not, see <https://www.gnu.org/licenses/>.
       >
         <ul>
           <li>New module <core:link book="/news/renderer/html" page="/" />.</li>
+          <li>Updated version of <core:link book="/news/model" page="/" />.</li>
+          <li>Updated version of <core:link book="/news/servlet" page="/" />.</li>
+          <li>Updated version of <core:link book="/news/taglib" page="/" />.</li>
+          <li>Updated version of <core:link book="/news/view" page="/" />.</li>
         </ul>
       </changelog:release>
     </c:if>
